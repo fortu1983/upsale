@@ -1,0 +1,133 @@
+.services
+  max-width: 800px!important
+  background: #fbfbfb!important
+  h3
+    padding-bottom: 5px!important
+    padding-left: 20px!important
+  .services-label
+    font-size: 24px
+    text-align: left
+    color: rgb(1,151,246)
+    font-weight: 700
+    padding-bottom: 10px
+    padding-left: 20px
+  ul
+    padding-left: 20px!important
+    @media (max-width: 480px)
+      padding-bottom: 120px!important
+    @media (max-width: 576px)
+      padding-left: 0px!important
+    li
+      border: none!important
+      position: relative!important
+      width: calc((100% / 2) - 12px)!important
+      margin-right: 10px!important
+      margin-bottom: 100px!important
+      @media (max-width: 576px)
+        display: flex
+        flex-direction: row!important
+        width: 100%!important
+        margin-top: 0px!important
+        margin-bottom: 0px!important
+        margin-left: 10px!important
+        justify-content: center
+        padding: 8px 10px
+      .main-feature-info
+        width: 194px
+        height: 110px
+        background: rgb(1,151,246)
+        background: linear-gradient(306deg, rgba(1,151,246,1) 0%, rgba(1,91,246,1) 100%)
+        z-index: 10
+        position: absolute
+        left: -2px
+        top: -1px
+        transform: skew(-4deg)
+        @media (max-width: 576px)
+          width: 214px
+          position: relative
+          height: 95px
+          left: 7px
+          box-shadow: 5px 4px 0px 0px rgba(255,255,255,1)
+        @media (min-width: 577px) and (max-width: 769px)
+          width: 160px
+        .name
+          color: #fff
+          font-size: 16px
+          margin: 10px 0 0 10px
+          text-align: left
+          @media (max-width: 576px)
+            font-size: 13px
+        .price
+          color: #fff
+          font-size: 20px
+          font-weight: 500
+          padding-top: 45px
+          text-align: left
+          margin-left: 10px
+          position: absolute
+          bottom: 10px
+          @media (max-width: 576px)
+            font-size: 16px
+          .FIAT
+            display: none
+          .GOTTA
+            sup
+              font-size: 12px
+              top: 2px
+              position: relative
+              @media (max-width: 576px)
+                font-size: 10px
+        .toggle
+          padding-top: 5px
+          color: rgb(1,151,246)
+          cursor: pointer
+          position: absolute
+          right: 10px
+          bottom: 10px
+          background: #fff
+          padding: 5px
+          border-radius: 4px
+          font-size: 12px
+          text-transform: uppercase
+          font-weight: 500
+          @media (max-width: 576px)
+            font-size: 10px
+      .middle-box
+        width: 194px
+        height: 110px
+        background: white
+        z-index: 1
+        position: absolute
+        left: 4px
+        top: 4px
+        transform: skew(-4deg)
+        box-shadow: 10px 10px 6px -6px rgba(0,0,0,0.16)
+        @media (max-width: 576px)
+          display: none
+          position: relative
+        @media (min-width: 577px) and (max-width: 769px)
+          width: 160px
+      .img-box
+        width: 200px
+        height: auto
+        position: absolute
+        right: 10px
+        top: 20px
+        @media (max-width: 576px)
+          left: inherit
+          right: 7px
+          position: relative
+          top: 10px
+  #text_toggle
+    .total-wrapper
+      z-index: 20!important
+
+input
+  opacity: 0
+
+.raise
+  transition: 0.25s
+
+.raise:hover
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover)
+  transform: translateX(0.25em)
