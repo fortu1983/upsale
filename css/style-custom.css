@@ -2,10 +2,12 @@
   max-width: 800px !important;
   background: #fbfbfb !important;
 }
+
 .services h3 {
   padding-bottom: 5px !important;
   padding-left: 20px !important;
 }
+
 .services .services-label {
   font-size: 24px;
   text-align: left;
@@ -14,19 +16,23 @@
   padding-bottom: 10px;
   padding-left: 20px;
 }
+
 .services ul {
   padding-left: 20px !important;
 }
+
 @media (max-width: 480px) {
   .services ul {
     padding-bottom: 120px !important;
   }
 }
+
 @media (max-width: 576px) {
   .services ul {
     padding-left: 0px !important;
   }
 }
+
 .services ul li {
   border: none !important;
   position: relative !important;
@@ -34,18 +40,27 @@
   margin-right: 10px !important;
   margin-bottom: 100px !important;
 }
+
 @media (max-width: 576px) {
   .services ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
     width: 100% !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
     margin-left: 10px !important;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 8px 10px;
   }
 }
+
 .services ul li .main-feature-info {
   width: 194px;
   height: 110px;
@@ -55,33 +70,40 @@
   position: absolute;
   left: -2px;
   top: -1px;
-  transform: skew(-4deg);
+  -webkit-transform: skew(-4deg);
+          transform: skew(-4deg);
 }
+
 @media (max-width: 576px) {
   .services ul li .main-feature-info {
     width: 214px;
     position: relative;
     height: 95px;
     left: 7px;
-    box-shadow: 5px 4px 0px 0px white;
+    -webkit-box-shadow: 5px 4px 0px 0px white;
+            box-shadow: 5px 4px 0px 0px white;
   }
 }
+
 @media (min-width: 577px) and (max-width: 769px) {
   .services ul li .main-feature-info {
     width: 160px;
   }
 }
+
 .services ul li .main-feature-info .name {
   color: #fff;
   font-size: 16px;
   margin: 10px 0 0 10px;
   text-align: left;
 }
+
 @media (max-width: 576px) {
   .services ul li .main-feature-info .name {
     font-size: 13px;
   }
 }
+
 .services ul li .main-feature-info .price {
   color: #fff;
   font-size: 20px;
@@ -92,24 +114,29 @@
   position: absolute;
   bottom: 10px;
 }
+
 @media (max-width: 576px) {
   .services ul li .main-feature-info .price {
     font-size: 16px;
   }
 }
+
 .services ul li .main-feature-info .price .FIAT {
   display: none;
 }
+
 .services ul li .main-feature-info .price .GOTTA sup {
   font-size: 12px;
   top: 2px;
   position: relative;
 }
+
 @media (max-width: 576px) {
   .services ul li .main-feature-info .price .GOTTA sup {
     font-size: 10px;
   }
 }
+
 .services ul li .main-feature-info .toggle {
   padding-top: 5px;
   color: #0197f6;
@@ -124,11 +151,13 @@
   text-transform: uppercase;
   font-weight: 500;
 }
+
 @media (max-width: 576px) {
   .services ul li .main-feature-info .toggle {
     font-size: 10px;
   }
 }
+
 .services ul li .middle-box {
   width: 194px;
   height: 110px;
@@ -137,20 +166,25 @@
   position: absolute;
   left: 4px;
   top: 4px;
-  transform: skew(-4deg);
-  box-shadow: 10px 10px 6px -6px rgba(0, 0, 0, 0.16);
+  -webkit-transform: skew(-4deg);
+          transform: skew(-4deg);
+  -webkit-box-shadow: 10px 10px 6px -6px rgba(0, 0, 0, 0.16);
+          box-shadow: 10px 10px 6px -6px rgba(0, 0, 0, 0.16);
 }
+
 @media (max-width: 576px) {
   .services ul li .middle-box {
     display: none;
     position: relative;
   }
 }
+
 @media (min-width: 577px) and (max-width: 769px) {
   .services ul li .middle-box {
     width: 160px;
   }
 }
+
 .services ul li .img-box {
   width: 200px;
   height: auto;
@@ -158,6 +192,7 @@
   right: 10px;
   top: 20px;
 }
+
 @media (max-width: 576px) {
   .services ul li .img-box {
     left: inherit;
@@ -166,6 +201,7 @@
     top: 10px;
   }
 }
+
 .services #text_toggle .total-wrapper {
   z-index: 20 !important;
 }
@@ -175,12 +211,14 @@ input {
 }
 
 .raise {
+  -webkit-transition: 0.25s;
   transition: 0.25s;
 }
 
 .raise:hover {
-  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-  transform: translateX(0.25em);
+  -webkit-box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+          box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateX(0.25em);
+          transform: translateX(0.25em);
 }
-
 /*# sourceMappingURL=style-custom.css.map */
